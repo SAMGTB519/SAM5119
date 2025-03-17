@@ -12,10 +12,10 @@ def main():
         # เรียงลำดับตามคำสั่ง
         if order == '1':
             print("Sorting from least to greatest:")
-            bubble_sort(arr, ascending=True)
+            bubble_sort(arr, ascending=True) # เรียกใช้ฟังก์ชัน bubble_sort() และเรียงลำดับจากน้อยไปมาก
         elif order == '2':
             print("Sorting in descending order:")
-            bubble_sort(arr, ascending=False)
+            bubble_sort(arr, ascending=False) # เรียกใช้ฟังก์ชัน bubble_sort() และเรียงลำดับจากมากไปน้อย
         else:
             print("Invalid command!!")
             continue  # ถ้าคำสั่งไม่ถูกต้อง ให้กลับไปรับค่าใหม่
